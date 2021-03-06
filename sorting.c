@@ -135,7 +135,6 @@ void merge_list(int arr[], int left, int mid, int right) {
 
     for(l=left; l<=right; l++) arr[l] = sorted[l];
 }
-
 void merge(int arr[], int left, int right) {
     int mid;
     if(left < right) {
@@ -193,14 +192,12 @@ void heapify(int arr[], int n) {
         }
     }
 }
-
 void heap(int arr[], int *size) {
     int temp = arr[0];
 	arr[0] = arr[*size-1];
 	arr[*size-1] = temp;
 	--(*size);
 }
-
 void heap_sort(int arr[], int n) {
     int size = n;
     for(int i = 0;i<n;i++){
