@@ -1,9 +1,3 @@
-# Algorithm_c
-
-# Sorting
-
-    
-```c
 #include <stdio.h>
 #define MAX_SIZE 10
 
@@ -85,4 +79,3 @@ int main() {
 
     return 0;
 }
-```
